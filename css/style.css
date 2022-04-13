@@ -4,7 +4,7 @@ li, img, div {
 }
 
 body {
-    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     background-color: #090a0f;
     font-family: "Montserrat", "Trebuchet MS", Helvetica;
     margin: 1em;
@@ -104,8 +104,28 @@ a.skip-to-content:focus {
 }
 
 .mobile-logo {
-  text-align: center;
+    text-align: center;
 }
+
+/* mobile nav button open styling */
+.dropdown-menu.show {
+    background-color: black;
+}
+.dropdown-item.active {
+    color: black;
+    background-color: #eed89b;
+}
+.dropdown-item {
+    color: white;
+}
+
+/* nav button closed styling */
+.btn, .btn-secondary, .dropdown-toggle {
+    background-color: #eed89b;
+    color: black;
+}
+
+
 
 /* index photo animation from left -> right */
 @keyframes left-to-right {
