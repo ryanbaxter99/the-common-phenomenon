@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1136221654.js" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F82RFL1FZY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-F82RFL1FZY');
+    </script>
+
+    <title>Social Media</title>
+
+</head>
+
+
+<body>
+
+    <header> 
+        <a class = "skip" href="#main4">Skip to Main Content</a>
+            <nav>
+            <div class="nav-container">
+                <div class="home">
+                    <a href = "index.html">Home</a>
+                </div>
+                
+                <div class="guests">
+                    <a href = "guests.html">Featured Guests</a>
+                </div>
+    
+                <div class="videos">
+                    <a href = "videos.html">Videos</a>
+                </div>
+    
+                <div class="contact">
+                    <a class="active" href = "contact.html">Contact</a>
+                </div>
+
+                <div class="logo">
+                    <a href="index.html"><img src = "images/no-back-logo.png" alt="The Common Phenomenon Podcast logo" class="logo" width="200"></a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ≡
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="guests.html">Featured Guests</a>
+                    <a class="dropdown-item" href="videos.html">Videos</a>
+                    <a class="dropdown-item active" href="contact.html">Contact</a>
+                </div>
+            </div>
+                  
+            </nav>
+
+            <div class="mobile-logo">
+                <a href="index.html"><img src = "images/no-back-logo.png" alt="The Common Phenomenon Podcast logo" class="logo" width="200"></a>
+            </div>
+    </header>
+
+    <main >
+        <!-- back to top button -->
+        <a title= "Back to top of page button" href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+
+        <h1 id="main4">Contact</h1>
+
+        <div class="flipcard" tabindex="0">
+            <!-- ??? ^^ when you click it on mobile, just flips the picture over...-->
+            <div class="flipcard-inner">
+                <div class="flipcard-front">
+                    <h2>Thank you for tuning in</h2>
+                </div>
+                <div class="flipcard-back">
+                    <h2>Sign up below to recieve to recieve TCP news and updates</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form gold-background">
+            <h2>Contact Form</h2>
+
+            <form action="https://formspree.io/f/mknyzzgp" method="POST">
+                <fieldset>  
+                    
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name" name="name" class="personal-info" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" id="email" name="email" class="personal-info" required>
+                    <br>
+                    <label for="phone number">Phone Number</label>
+                    <input type="phone number" placeholder="Phone Number" id="phone number" name="phone number" class="personal-info" required>
+                    <br>
+                    <label for="message">Message</label>
+                    <textarea placeholder="Message" id="message" name="msg" required></textarea>
+                    <br>
+                    <label for="submit">Submit</label>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="contact-photos-container">
+            <img class="personal-1" src = "images/tyler-personal.png" alt="Picture of Tyler in Grandrapids MI">
+            <img class="personal-2" src = "images/tyler-personal-2.png" alt="Picture of Tyler at WMU">
+            <img class="personal-3" src = "images/tyler-personal-3.png" alt="Picture of Tyler at WMU">
+            <img class="personal-4" src = "images/tyler-personal-4.png" alt="Picture of Tyler at WMU">
+            <img class="personal-5" src = "images/tyler-personal-5.png" alt="Picture of Tyler at WMU">
+            <img class="podcast-capture-1" src = "images/noah_pod.png" alt="Podcast capture of Noah Johnson and Tyler">
+            <img class="podcast-capture-2" src = "images/john_pod.png" alt="Podcast capture of John and Tyler">
+            <img class="podcast-capture-3" src = "images/payton_pod.png" alt="Podcast capture of Payton and Tyler">
+            <img class="podcast-capture-4" src = "images/logan_pod.png" alt="Podcast capture of Logan and Tyler">
+        </div>
+
+    </main>
+
+    <footer> 
+
+        <div class="footer-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col item social">
+                        <a title="youtube" href="https://www.youtube.com/channel/UC-FjLiRYBEIT6bBcis9o1Mw">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a title="instagram" href="https://www.instagram.com/the_commonphenomenon/?utm_medium=copy_link">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a title="tiktok" href="https://www.tiktok.com/@the_commonphenomenon?_d=secCgYIASAHKAESPgo8rAnYu6bmRzZltJQjhPO2ROBX89ZiLKoeGeHOWzslCszR%2BYX9p2ULYT78V6pmN6mx9HWb3caZw6%2BGvOh1GgA%3D&checksum=20a50e69f837cbef59462f4950f08461331e524f4ef32c3da7eec0c57357f503&enable_clips=1&language=en&sec_uid=MS4wLjABAAAAjKElMXilpLZi2uLfO5uWgc6fA9ERxb9pItlV9FP0pY2YdZE3gU4xit2N-ocKh2Ik&sec_user_id=MS4wLjABAAAAjKElMXilpLZi2uLfO5uWgc6fA9ERxb9pItlV9FP0pY2YdZE3gU4xit2N-ocKh2Ik&share_app_id=1233&share_author_id=6876877811269977093&share_link_id=CBF9ED57-FEE9-4E76-B013-F0BC5C29565D&tt_from=sms&u_code=deiajge5190c84&user_id=6876877811269977093&utm_campaign=client_share&utm_medium=ios&utm_source=sms&source=h5_m&_r=1">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a title="patreon" href="https://www.patreon.com/?utm_source=google&utm_medium=cpc&gclid=CjwKCAjw9LSSBhBsEiwAKtf0n7nm0q8OQVS3Ab-2r6ka5eu3Z_RzNDNI09ZOXs7S7DxnidhkuOLRwxoC9F4QAvD_BwE&gclsrc=aw.ds">
+                            <i class='fab fa-patreon'></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyright">The Common Phenomenon &copy; 2022</p>
+            </div>
+            
+        </div>
+          
+    </footer>   
+    <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d80b5fb1a792cd1',m:'1tiUSs3aJesJLKoyrnZL9oZGcSQC5ZiE3a.AMxZerKo-1643944278-0-ASBb+c3oQcyVpYkOJFFU13EutTsC+NAb6AhJf8qdVODi8PgA/J2Kd47nqjWHm+nh+xY2HDYmFVBT3/o1kRp1gf0fHuRilLGXaBVg4IWP4biD57tFpKU8QxQMJ+5K53ovGwxWxvBYdBnu8QCO0PjK0sSJFuVPvIqjXKp9cCc5hlTodkYpvePGqukS1bJeQOHKyw==',s:[0x45fe1d491b,0xc6450f5732],}})();</script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../portfolio-temp/js/main.js"></script>
+</body>
+</html>
