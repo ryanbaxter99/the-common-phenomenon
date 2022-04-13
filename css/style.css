@@ -338,7 +338,6 @@ a.skip-to-content:focus {
     filter: contrast(1.20)
 }
 .flipcard {
-    margin: auto;
     perspective: 1000px;
     display: grid;
     background-color: transparent;
@@ -348,9 +347,13 @@ a.skip-to-content:focus {
 /* center the flipcard */
 .flipcard-front {
     margin: 5em;
+    
 }
 
 .flipcard-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 8px;
     position: relative;
     width: 80%;
@@ -373,7 +376,6 @@ a.skip-to-content:focus {
     height: 100px;
     background-image: url("../images/background.jpeg");
 }
-
 
 .flipcard-back {
     transform: rotateY(180deg);
@@ -669,6 +671,7 @@ input, textarea {
 
     /* contact.html tablet view styling */
 
+    
     .flipcard {
         display: block;
     }
@@ -845,6 +848,9 @@ input, textarea {
     /* xx */
 
     /* contact.html desktop styling */
+
+     
+    
     .contact-photos-container {
         grid-template-rows: repeat(5, .5fr);
         grid-template-columns: 30% 30% 30%;
