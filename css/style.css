@@ -288,11 +288,11 @@ a.skip-to-content:focus {
     filter: blur(15px);
 }
 
-.img-wrapper:active > .content.fade {
+.img-wrapper:focus > .content.fade {
     opacity: 1;
 }
 
-.img-wrapper:active > img.blur {
+.img-wrapper:focus > img.blur {
     filter: blur(15px);
 }
 
