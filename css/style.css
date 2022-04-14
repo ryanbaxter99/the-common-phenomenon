@@ -288,6 +288,15 @@ a.skip-to-content:focus {
     filter: blur(15px);
 }
 
+.img-wrapper:active > .content.fade {
+    opacity: 1;
+}
+
+.img-wrapper:active > img.blur {
+    filter: blur(15px);
+}
+
+
 /* this activates if user used tab instead of hovering */
 .fade:focus {
     opacity: 1;
@@ -334,7 +343,7 @@ a.skip-to-content:focus {
 /* Contact page styling */
 
 /* contact.html flipcard css */
-.gold {
+.gold-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/gold.jpg");
     background-color: #fff;
     /* min-height: 400px; */
@@ -344,6 +353,7 @@ a.skip-to-content:focus {
     background-size: cover;
     filter: contrast(1.20)
 }
+
 .flipcard {
     width: 300px;
     height: 200px;
@@ -378,6 +388,10 @@ a.skip-to-content:focus {
     /* background-image: url("../images/background.jpeg"); */
 }
 
+.flipcard-front > h2, .flipcard-back > h2 {
+    color: white;
+}
+
 .flipcard-front {
     font-size: 12px;
 }
@@ -392,7 +406,8 @@ a.skip-to-content:focus {
 
 /* contact form */
 .contact-form {
-    padding-top: 10em;
+    /* padding-top: 10em; */
+    padding-bottom: 1em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -922,5 +937,15 @@ input, textarea {
       animation: none;
     }
 
+    /* turns off the flipcard  */
+    .flipcard:hover .flipcard-inner, .flipcard:focus .flipcard-inner, .flipcard-back {
+        transform: rotateY(0deg);
+        transition: none;
+    }
+
+    /* parallax made still */
+    .gold-background {
+        background-attachment: scroll;
+    }
 }
 
