@@ -943,6 +943,10 @@ input, textarea {
         transition: none;
     }
 
+    .flipcard-back {
+        display: none;
+    }
+
     /* parallax made still */
     .gold-background {
         background-attachment: scroll;
